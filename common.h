@@ -8,11 +8,11 @@
 #endif
 
 
-int MODE_RTSP, MODE_STDOUT;
+extern int MODE_RTSP, MODE_STDOUT;
 
 #ifdef ENABLE_RTSP
-char* MODE_RTSP_FIFO_FILE;
-int MODE_RTSP_FIFO;
+extern extern char* MODE_RTSP_FIFO_FILE;
+extern int MODE_RTSP_FIFO;
 #endif
 
 #endif
