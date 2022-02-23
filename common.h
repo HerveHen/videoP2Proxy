@@ -11,7 +11,7 @@
 extern int MODE_RTSP, MODE_STDOUT;
 
 #ifdef ENABLE_RTSP
-extern extern char* MODE_RTSP_FIFO_FILE;
+extern char* MODE_RTSP_FIFO_FILE;
 extern int MODE_RTSP_FIFO;
 #endif
 
