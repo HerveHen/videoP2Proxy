@@ -18,6 +18,11 @@
 #include "client.h"
 #include "rtsp.h"
 
+int MODE_RTSP, MODE_STDOUT;
+char* MODE_RTSP_FIFO_FILE;
+int MODE_RTSP_FIFO;
+
+
 void print_usage() {
     printf(
     		"Usage: videop2proxy --ip CAMERA_IP --token CAMERA_HEX_TOKEN [...] \n"
